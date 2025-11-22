@@ -134,3 +134,25 @@ We will compare all models using the following metrics:
 - Perform hyperparameter tuning using GridSearchCV or RandomizedSearchCV
 
 **Note:** This comprehensive approach is very impressive for Master's level evaluation and demonstrates advanced understanding of machine learning workflows.
+
+## 7. Evaluation Strategy
+
+We will evaluate model performance using the following methods:
+
+- **Confusion Matrix:** Visual representation of true positives, true negatives, false positives, and false negatives
+- **ROC Curve:** Plot showing the trade-off between true positive rate and false positive rate
+- **Precision-Recall Curve:** Visualization of precision vs. recall for different thresholds
+- **Feature Importance:** Analysis of which features contribute most to predictions
+- **SHAP (SHapley Additive exPlanations):** Optional advanced technique for model interpretability
+
+**Note:** This comprehensive evaluation approach demonstrates advanced understanding of model assessment.
+
+## 8. Deployment Strategy (Future Proofing)
+
+In this stage, the model will be deployed using Streamlit or Flask, allowing users to input health information and receive diabetes risk predictions.
+
+**This demonstrates:**
+
+- Real-world thinking and practical application
+- Product mindset and end-user focus
+- Application-based knowledge and deployment skills
