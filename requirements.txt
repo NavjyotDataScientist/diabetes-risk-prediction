@@ -1,1 +1,42 @@
+## 📦 Python Dependencies
 
+This project requires the following Python packages. Install them using:
+
+```bash
+pip install -r requirements.txt
+```
+
+### Core Data Science Libraries
+
+- `pandas` - Data manipulation and analysis
+- `numpy` - Numerical computing and array operations
+- `matplotlib` - Data visualization and plotting
+- `seaborn` - Statistical data visualization
+
+### Machine Learning
+
+- `scikit-learn` - Machine learning algorithms and tools
+- `xgboost` - Gradient boosting framework
+
+### Development Environment
+
+- `jupyter` - Interactive computing environment
+- `notebook` - Jupyter Notebook interface
+
+### Model Persistence
+
+- `joblib` - Model serialization and saving
+
+### Optional Dependencies (for future deployment)
+
+- `fastapi` - Modern web framework for building APIs
+- `uvicorn` - ASGI server for FastAPI
+- `pydantic` - Data validation using Python type hints
+
+**Note:** After completing the project and finalizing all dependencies, generate the exact package versions using:
+
+```bash
+pip freeze > requirements.txt
+```
+
+This ensures reproducibility by locking specific package versions.
